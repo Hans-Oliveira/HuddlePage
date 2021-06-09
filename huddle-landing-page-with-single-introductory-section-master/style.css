@@ -1,0 +1,114 @@
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #674baf;
+    background-size: cover;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+.logo {
+    height: 100px;
+}
+.container {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.exemplo {
+    margin-top: 100px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    height: 200px;
+    color: white;
+    float: right;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+pre {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-right: 24%;
+    margin-top: -20%;
+}
+.button-register {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e882e8;
+    color: white;
+    font-size: 20px;
+    padding: 15px 80px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 15px 2px #000000;
+    margin-right: 43%;
+    margin-top: -13%;
+    float: right;
+}
+.icons {
+    width: 15%;
+    float: right;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media only screen and (max-width: 1400px) {
+    main, .container, html {
+        height: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+    .exemplo {
+        width: 90%;
+        margin: 15px 5%;
+    }
+    .logo {
+        width: 60%;
+        margin: 5%;
+    }
+    h1 {
+        font-size: 29px !important;
+        margin: 0px;
+        padding: 0px !important;
+        /* height: 150px; */
+    }
+    pre, h1, .button-register, .icons {
+        float: none;
+        text-align: center;
+        font-size: 14px;
+        margin: 0px;
+        height: 130px;
+
+    }
+    .icons {
+        width: 30% !important;
+        height: 30% !important;
+        margin-top: 30px;
+    }
+    
+}
+
+.button-register:hover {
+    background-color: white;
+    color: #e882e8;
+}
